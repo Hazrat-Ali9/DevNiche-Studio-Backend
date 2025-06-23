@@ -1,5 +1,5 @@
 const { z } = require('zod');
-
+// auth sign UP
 const signUpSchema = z.object({
     username: z.string({ required_error: "Name is required" })
         .trim()

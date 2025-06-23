@@ -3,7 +3,7 @@ const {getAllUsers, getAllContacts, getAllServices, deleteUserById, getUserById,
 const authMiddleware = require('../middlewares/auth-middleware');
 const adminMiddleware = require('../middlewares/admin-middleware');
 const router = express.Router();
-
+// admin router
 router.route('/users').get(authMiddleware,adminMiddleware, getAllUsers);
 router.route('/contacts').get(authMiddleware, adminMiddleware,getAllContacts);
 router.route('/services').get(authMiddleware, adminMiddleware, getAllServices);

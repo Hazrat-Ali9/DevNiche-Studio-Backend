@@ -1,5 +1,5 @@
 const {z} = require('zod')
-
+// auth login validator
 const loginSchema = z.object({
     email: z.string({ required_error: "Email is required" })
         .trim()

@@ -5,5 +5,5 @@ const validate = require('../middlewares/validate-middleware');
 const contactSchema = require('../validators/contact-validator');
 
 router.route("/contact").post(validate(contactSchema), contactController.contactForm);
-
+// contact router
 module.exports = router;

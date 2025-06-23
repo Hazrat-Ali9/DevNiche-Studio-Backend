@@ -1,5 +1,5 @@
 const {Schema, model} = require('mongoose');
-
+// Service model
 const serviceSchema = new Schema({
     service: { type: String, required: true},
     description: {type: String, required: true},

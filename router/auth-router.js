@@ -5,7 +5,7 @@ const signUpSchema = require("../validators/auth-signUp-validator");
 const validate = require('../middlewares/validate-middleware');
 const loginSchema = require('../validators/auth-login-validator');
 const authMiddleware = require("../middlewares/auth-middleware");
-
+// Auth Router
 router.route("/").get(authControllers
     .home);
 

@@ -1,0 +1,16 @@
+npm init -y
+npm i express
+npm i nodemon
+
+npm i mongoose
+
+securing data: npm i dotenv
+
+secure passord: npm i bcryptjs
+
+json web token: npm i jsonwebtoken
+
+zod for validation: npm i zod
+
+
+resolve issue of cors: npm i cors

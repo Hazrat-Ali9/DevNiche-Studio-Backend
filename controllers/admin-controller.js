@@ -24,7 +24,7 @@ const getAllContacts = async(req, res, next)=>{
         next(error);
     }
 }
-
+// admin controller
 const getAllServices = async (req, res, next)=>{
     try {
         const services = await Service.find();

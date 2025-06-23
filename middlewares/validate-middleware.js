@@ -19,5 +19,5 @@ const validate = (schema) => async (req, res, next) => {
         next(error);
     }
 }
-
+// Validate Middleware
 module.exports = validate;

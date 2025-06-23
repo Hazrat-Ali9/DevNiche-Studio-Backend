@@ -1,7 +1,7 @@
 npm init -y
 npm i express
 npm i nodemon
-
+mpm start
 npm i mongoose
 
 securing data: npm i dotenv
